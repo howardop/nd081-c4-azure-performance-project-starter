@@ -146,8 +146,7 @@ The script above will take a few minutes to create VMSS and related resources. O
    # Add, Commit, and Push your changes to the remote
    git add -A     
    git commit -m "Initial commit for Deploy_to_VMSS branch"
-   git push --set-upstream Deploy_to_VMSS
-   # git branch --set-upstream-to=origin/Deploy_to_VMSS Deploy_to_VMSS
+   git push -u origin Deploy_to_VMSS
    ```
 
 ### Step 3 - Deploy to VMSS

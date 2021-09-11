@@ -1,0 +1,1 @@
+ssh -p 50001 udacityadmin@13.87.187.199
