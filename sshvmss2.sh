@@ -1,1 +1,1 @@
-ssh -p 50002 udacityadmin@13.87.187.199
+ssh -p 50002 udacityadmin@40.71.73.110
