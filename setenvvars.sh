@@ -1,11 +1,11 @@
 export RESOURCEGP=acdnd-c4-project
 export VMSS=udacity-vmss
 export RESOURCETYPE="Microsoft.Compute/virtualMachineScaleSets"
-export AUTOSCALENAME=udacity-autoscale
-export AKSCLUSTERNAME=hlo-aks-cluster
+export AUTOSCALENAME=udacity-autoscale2
+export AKSCLUSTERNAME=hlo-aks-cluster2
 
-export ACRNAME=hloacr
-export ACRLOGINSERVER=hloacr.azurecr.io
+export ACRNAME=hloacr2
+export ACRLOGINSERVER=hloacr2.azurecr.io
 
 
 export MONITORWORKSPACEID=DefaultWorkspace-99dbe2a9-5bda-450d-8779-817d483b3e42-EUS

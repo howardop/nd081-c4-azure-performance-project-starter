@@ -94,7 +94,7 @@ else:
 r = redis.Redis()
 # Redis configuration
 # Redis Connection to another container
-#redis_server = os.environ['REDIS']
+# redis_server = os.environ['REDIS']
 
 # try:
 #     if "REDIS_PWD" in os.environ:
@@ -179,4 +179,4 @@ if __name__ == "__main__":
     # comment line below when deploying to VMSS
     app.run() # local
     # uncomment the line below before deployment to VMSS
-    # app.run(host='0.0.0.0', threaded=True, debug=True) # remote
+    #app.run(host='0.0.0.0', threaded=True, debug=True) # remote
